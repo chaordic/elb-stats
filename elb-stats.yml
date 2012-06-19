@@ -1,0 +1,11 @@
+environment:
+    JAVA_HOME: '/path/to/java/'
+    EC2_HOME: '/path/to/ec2/api/tools/'
+    EC2_PRIVATE_KEY: '/path/to/ec2/private/key.pem'
+    EC2_CERT: '/path/to/ec2/cert.pem'
+
+settings:
+    test_server: 'my.server.com'
+    elb_region: 'us-west-1'
+    elb_name_regex: 'elb_name_or_regex'
+    test_url: '/url/that/should/return/200'
